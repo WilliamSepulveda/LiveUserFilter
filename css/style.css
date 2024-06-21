@@ -9,22 +9,19 @@
 
 .container_dad {
     display: flex;
-    background: rgb(238, 0, 255);
-    height: 10vh; 
+    background: rgb(238, 0, 255); 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
 }
 
 .container_son {
     display: grid;
-    height: auto; 
 }
 
 .navegador {
-    background: rgb(238, 0, 255);
     display: flex;
+    background: rgb(238, 0, 255);
     padding: var(--space-layout-padding-lr);
     flex-direction: row;
     justify-content: space-between;
@@ -34,13 +31,12 @@
 
 .search_buscador {
     position: relative;
-    width: 90%;
-    margin-left: 5vw;
+    width: 100vw;
 }
 
 .search_buscador input {
     outline: none;
-    width: 100%; 
+    width: 190vw; 
     background: rgb(255, 255, 255);
     height: 45px;
     border-radius: 10px;
@@ -71,7 +67,7 @@
 
 @media (max-width: 400px) {
     .container_dad {
-    padding: 0.1rem;
+    padding: 0.2rem;
     }
 
 .container_son p{
@@ -91,4 +87,66 @@
 
     .search_buscador input {
         width: 100%;    }
+}
+.main{
+    display: grid;
+    overflow-y: scroll;
+    height: 120vw;
+    
+}
+.main__article{
+    display: flex;
+    height: 10vh;
+    width: 97vw;
+    margin-top: 10px;
+    margin-left: 1vw;
+
+}
+.main__article section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 5vw;
+    width: 100%;
+    height: 100%;
+}
+.section{
+    display: flex;
+    position: relative;
+    margin-top: 2vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.section__front_page img{
+    position: absolute; 
+    top: 1px; 
+    left: 8px; 
+    width: 17vw;
+    height: 16vw;
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    border-radius: 100%;
+}
+
+.main__article section h5{
+    font-family: "Black";
+    color: var(--color-2);
+    font-size: 5vw;
+    margin-left: 30vw;
+}
+.main__article  small{
+    color: var(--color-3);
+    font-family: "EncodeSans-Semibold";
+    font-size: 4vw;
+    margin-left: 30vw;
+    margin-bottom: 5vw;
+    
+}
+.main__article section h5,
+.main__article section small{
+    align-self: flex-start;
+    color: black;
 }

@@ -4,7 +4,7 @@
     --color-3: #A4AAAD;
     --color-4: #111111;
     --color-5: #FFFFFF;
-    --space-layout-padding-lr: 0px 15px;
+    --space-layout-padding-lr: 0px 20px;
     --space-layout-padding-t: 5px; 
     --layout-imagen-width:100%;
     --layout-imagen-height:250px;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "Bold";
-    src: url("../storage/fonts/EncondeSans/EncodeSans_Condensed-ExtraBold.ttf");
+    src: url("../storage/fonts/EncondeSans/EncodeSans-Bold.ttf");
 }
 @font-face {
     font-family: "Light";
