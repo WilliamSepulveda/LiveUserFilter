@@ -1,0 +1,28 @@
+:root{
+    --color-1: #292526;
+    --color-2: #1B2028;
+    --color-3: #A4AAAD;
+    --color-4: #111111;
+    --color-5: #FFFFFF;
+    --space-layout-padding-lr: 0px 15px;
+    --space-layout-padding-t: 5px; 
+    --layout-imagen-width:100%;
+    --layout-imagen-height:250px;
+
+    --layout-imagen-width-checkout:70px;
+    --layout-imagen-height-checkout:70px;
+
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url("../storage/fonts/EncondeSans/EncodeSans_Condensed-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Light";
+    src: url("../storage/fonts/EncondeSans/EncodeSans-Light.ttf");
+}
+@font-face {
+    font-family: "Black";
+    src: url("../storage/fonts/EncondeSans/EncodeSans-Black.ttf");
+}
